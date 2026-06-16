@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight, Download, Mail, Phone, MapPin, Send, Calendar,
-  Moon, Sun, ArrowUp, Github, Linkedin, Instagram, Dribbble,
-  Sparkles, Palette, Code2, Users, MessageCircle, Award, Quote,
-  ExternalLink, FileText, ChevronRight,
+  Moon, Sun, ArrowUp, Github, Linkedin, Instagram, Twitter,
+  Sparkles, Cpu, Code2, Database, MessageCircle, Award, Quote,
+  ExternalLink, FileText, ChevronRight, GraduationCap,
 } from "lucide-react";
 
 import portrait from "@/assets/portrait.jpg";
@@ -15,10 +15,10 @@ import project3 from "@/assets/project3.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Eliana Vaughn — Brand & Product Designer" },
-      { name: "description", content: "Portfolio of Eliana Vaughn, a brand and product designer crafting refined digital experiences for luxury and lifestyle brands." },
-      { property: "og:title", content: "Eliana Vaughn — Brand & Product Designer" },
-      { property: "og:description", content: "Refined digital experiences for luxury and lifestyle brands." },
+      { title: "Aanya Sharma — Information Science & Engineering Graduate" },
+      { name: "description", content: "Portfolio of Aanya Sharma, a recent Information Science and Engineering graduate building thoughtful software across full-stack, data and AI." },
+      { property: "og:title", content: "Aanya Sharma — Information Science & Engineering Graduate" },
+      { property: "og:description", content: "Recent ISE graduate building thoughtful full-stack, data and AI projects." },
     ],
   }),
   component: Portfolio,
@@ -115,18 +115,18 @@ function Portfolio() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="reveal">
             <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium tracking-wider uppercase text-foreground/70">
-              <Sparkles className="h-3.5 w-3.5 text-gold" /> Available for select projects · 2026
+              <Sparkles className="h-3.5 w-3.5 text-gold" /> Open to graduate roles · 2026
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[1.05] sm:text-6xl lg:text-7xl xl:text-8xl">
               <span className="block text-foreground/90">Hello, I'm</span>
-              <span className="block text-gradient italic">Eliana Vaughn</span>
+              <span className="block text-gradient italic">Aanya Sharma</span>
             </h1>
             <p className="mt-6 max-w-xl font-display text-2xl italic text-foreground/70 sm:text-3xl">
-              Brand &amp; Product Designer
+              Information Science &amp; Engineering Graduate
             </p>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              I craft refined digital experiences and identity systems for luxury and lifestyle brands —
-              translating intention into interfaces that feel quietly inevitable.
+              I build thoughtful software at the intersection of full-stack engineering, data and applied AI —
+              translating curiosity into systems that are clean, considered and quietly powerful.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <BtnPrimary href="#projects"><span>View Portfolio</span><ArrowRight className="h-4 w-4" /></BtnPrimary>
@@ -136,9 +136,9 @@ function Portfolio() {
             </div>
 
             <div ref={statsRef} className="mt-14 grid max-w-xl grid-cols-3 gap-6">
-              <Stat value={useCounter(86, statsIn)} suffix="+" label="Projects shipped" />
-              <Stat value={useCounter(12, statsIn)} suffix=" yrs" label="Experience" />
-              <Stat value={useCounter(34, statsIn)} suffix="" label="Awards & features" />
+              <Stat value={useCounter(18, statsIn)} suffix="+" label="Projects built" />
+              <Stat value={useCounter(9, statsIn)} suffix=" CGPA" label="Final score" />
+              <Stat value={useCounter(7, statsIn)} suffix="" label="Hackathons & awards" />
             </div>
           </div>
 
@@ -148,7 +148,7 @@ function Portfolio() {
               <div className="overflow-hidden rounded-[2rem] glass-strong p-2">
                 <img
                   src={portrait}
-                  alt="Portrait of Eliana Vaughn"
+                  alt="Portrait of Aanya Sharma"
                   width={1024}
                   height={1280}
                   className="h-[34rem] w-full rounded-[1.6rem] object-cover sm:h-[38rem]"
@@ -156,10 +156,10 @@ function Portfolio() {
               </div>
               <div className="absolute -bottom-6 -left-6 hidden rounded-2xl glass-strong px-5 py-4 sm:block">
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">Currently</div>
-                <div className="mt-1 font-display text-lg">Design Director, Atelier Nord</div>
+                <div className="mt-1 font-display text-lg">B.E. ISE · RV College of Engineering</div>
               </div>
               <div className="absolute -right-4 top-10 hidden rounded-full glass-strong px-4 py-2 text-xs font-medium sm:block">
-                <span className="text-gold">★</span> Awwwards SOTD ×3
+                <span className="text-gold">★</span> Smart India Hackathon Winner
               </div>
             </div>
           </div>
@@ -167,34 +167,34 @@ function Portfolio() {
       </section>
 
       {/* ABOUT */}
-      <Section id="about" eyebrow="About" title="A story shaped by craft and curiosity">
+      <Section id="about" eyebrow="About" title="A graduate shaped by curiosity and code">
         <div className="grid gap-10 lg:grid-cols-3">
           <div className="reveal lg:col-span-2 space-y-5 text-lg leading-relaxed text-foreground/80">
             <p>
-              For over a decade I've worked at the intersection of brand and product — partnering with
-              founders, creative directors and engineering leaders to build experiences that feel both
-              effortless and unmistakable.
+              I'm a recent Information Science &amp; Engineering graduate with a soft spot for the parts of
+              software that quietly do the heavy lifting — clean APIs, well-shaped data, and interfaces
+              that don't make people think twice.
             </p>
             <p>
-              My practice began in editorial design and slowly grew into systems work: typography that
-              breathes, motion that earns its place, and interfaces that respect the people using them.
-              I currently lead a small studio focused on hospitality, fashion and wellness clients.
+              Across four years I explored everything from data structures and DBMS to machine learning,
+              cloud computing and full-stack development. Two internships taught me how production software
+              really behaves, and a handful of hackathons taught me how to ship.
             </p>
             <p>
-              Looking forward, I'm building toward a quieter kind of luxury in software — products that feel
-              less like dashboards and more like beautifully made objects.
+              I'm now looking to join a team where I can keep learning fast, contribute to meaningful
+              products, and grow into a thoughtful software engineer over the next few years.
             </p>
           </div>
           <div className="reveal space-y-4">
-            <Highlight label="Career goal" text="Lead design for a category-defining lifestyle product." />
-            <Highlight label="Key win" text="Rebrand & launch of Maison Lior — 4× revenue in 18 months." />
-            <Highlight label="Speaking" text="Config 2025 · Awwwards Conf · Brand New" />
+            <Highlight label="Career goal" text="Join a strong engineering team as an SDE / Data Engineer." />
+            <Highlight label="Key win" text="Smart India Hackathon 2024 — National Winner, Software track." />
+            <Highlight label="Focus areas" text="Full-stack · Data Engineering · Applied ML" />
           </div>
         </div>
       </Section>
 
       {/* SKILLS */}
-      <Section id="skills" eyebrow="Skills" title="A practice across four disciplines">
+      <Section id="skills" eyebrow="Skills" title="A toolkit across four disciplines">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {SKILLS.map((s, i) => (
             <SkillCard key={s.title} {...s} delay={i * 80} />
@@ -318,13 +318,13 @@ function Portfolio() {
           </form>
 
           <div className="reveal space-y-4">
-            <ContactRow icon={Mail} label="Email" value="hello@elianavaughn.studio" />
-            <ContactRow icon={Phone} label="Phone" value="+1 (415) 555 0119" />
-            <ContactRow icon={MapPin} label="Studio" value="San Francisco · Remote worldwide" />
+            <ContactRow icon={Mail} label="Email" value="aanya.sharma.ise@gmail.com" />
+            <ContactRow icon={Phone} label="Phone" value="+91 98765 43210" />
+            <ContactRow icon={MapPin} label="Based in" value="Bengaluru · Open to relocation" />
             <div className="glass rounded-3xl p-6">
               <div className="text-xs font-medium uppercase tracking-widest text-muted-foreground">Follow</div>
               <div className="mt-4 flex gap-3">
-                {[Linkedin, Dribbble, Instagram, Github].map((Icon, i) => (
+                {[Linkedin, Github, Twitter, Instagram].map((Icon, i) => (
                   <a
                     key={i}
                     href="#"
@@ -480,43 +480,43 @@ function Highlight({ label, text }: { label: string; text: string }) {
 
 const SKILLS = [
   {
-    title: "Design",
-    icon: Palette,
-    blurb: "Brand systems, editorial, product UI.",
-    items: [
-      { name: "Brand Identity", value: 96 },
-      { name: "Product Design", value: 92 },
-      { name: "Typography", value: 95 },
-    ],
-  },
-  {
-    title: "Technology",
+    title: "Engineering",
     icon: Code2,
-    blurb: "Comfortable in the engineering room.",
+    blurb: "Full-stack web with a love for clean code.",
     items: [
-      { name: "Design Systems", value: 94 },
-      { name: "Prototyping", value: 88 },
-      { name: "Front-end (HTML/CSS)", value: 80 },
+      { name: "Java · Python · C++", value: 92 },
+      { name: "React · Node.js", value: 88 },
+      { name: "REST APIs & Testing", value: 84 },
     ],
   },
   {
-    title: "Leadership",
-    icon: Users,
-    blurb: "Studios, squads, cross-functional teams.",
+    title: "Data & AI",
+    icon: Database,
+    blurb: "From SQL fundamentals to ML pipelines.",
     items: [
-      { name: "Team Building", value: 90 },
-      { name: "Mentorship", value: 93 },
-      { name: "Strategy", value: 87 },
+      { name: "SQL · MongoDB", value: 90 },
+      { name: "Pandas · NumPy", value: 86 },
+      { name: "Machine Learning", value: 78 },
     ],
   },
   {
-    title: "Communication",
+    title: "Systems",
+    icon: Cpu,
+    blurb: "How software actually runs at scale.",
+    items: [
+      { name: "OS & Computer Networks", value: 88 },
+      { name: "Docker · Linux", value: 82 },
+      { name: "AWS Cloud Basics", value: 76 },
+    ],
+  },
+  {
+    title: "Collaboration",
     icon: MessageCircle,
-    blurb: "Writing, presenting, advising.",
+    blurb: "Teamwork, writing, and clear thinking.",
     items: [
-      { name: "Client Workshops", value: 94 },
-      { name: "Speaking", value: 86 },
-      { name: "Writing", value: 89 },
+      { name: "Git & Code Review", value: 92 },
+      { name: "Technical Writing", value: 84 },
+      { name: "Public Speaking", value: 80 },
     ],
   },
 ] as const;
@@ -567,25 +567,25 @@ function SkillCard({
 
 const PROJECTS = [
   {
-    title: "Maison Lior",
-    category: "Luxury Hospitality · 2025",
-    description: "Identity system and booking experience for a Parisian boutique hotel group. Quiet typography, generous space, and a reservation flow that feels like a concierge.",
-    image: project2,
-    tags: ["Brand", "Web", "Editorial"],
-  },
-  {
-    title: "Sable Wellness",
-    category: "Lifestyle Product · 2024",
-    description: "A meditation product reimagined as a soft, low-stimulation companion. Includes a custom motion system and a calming dashboard for daily practice.",
+    title: "MediTrack — Hospital Records Platform",
+    category: "Final Year Project · 2025",
+    description: "A full-stack hospital records system with role-based access for doctors, patients and admins. Built with the MERN stack and a normalized PostgreSQL schema; deployed on AWS with CI via GitHub Actions.",
     image: project1,
-    tags: ["Product", "Mobile", "Motion"],
+    tags: ["React", "Node.js", "PostgreSQL", "AWS"],
   },
   {
-    title: "Atelier Nord Index",
-    category: "Studio Self-Publishing · 2024",
-    description: "An evolving online journal and case-study index for our own studio. Built around a flexible grid that lets writing and imagery breathe.",
+    title: "CampusCart — Student Marketplace",
+    category: "Smart India Hackathon · 2024",
+    description: "A peer-to-peer marketplace for college students with real-time chat, image search and Razorpay payments. Won the national finals on the Software track for ed-tech.",
+    image: project2,
+    tags: ["Next.js", "MongoDB", "Socket.io"],
+  },
+  {
+    title: "LeafSense — Plant Disease Detection",
+    category: "Mini Project · 2023",
+    description: "A CNN-based image classifier that detects 14 common crop diseases from a smartphone photo. Trained on PlantVillage and served through a lightweight FastAPI backend with a React Native client.",
     image: project3,
-    tags: ["Editorial", "Design System"],
+    tags: ["Python", "TensorFlow", "FastAPI"],
   },
 ] as const;
 
@@ -622,10 +622,10 @@ function ProjectCard({ project, reverse }: { project: (typeof PROJECTS)[number];
 }
 
 const EXPERIENCE = [
-  { company: "Atelier Nord", role: "Founder & Design Director", period: "2021 — Present", text: "Lead a 6-person studio shipping identity & product work for hospitality and lifestyle clients." },
-  { company: "Linear", role: "Senior Product Designer", period: "2019 — 2021", text: "Owned mobile and onboarding surfaces. Helped scale the design system across 4 platforms." },
-  { company: "Pentagram", role: "Designer", period: "2016 — 2019", text: "Worked on identity programs for cultural institutions and a major airline rebrand." },
-  { company: "Independent", role: "Freelance Designer", period: "2014 — 2016", text: "Editorial design for magazines and early-stage brand work for D2C founders." },
+  { company: "RV College of Engineering", role: "B.E. — Information Science & Engineering", period: "2021 — 2025", text: "Graduated with a CGPA of 9.1/10. Coursework in DSA, DBMS, OS, Networks, ML and Cloud Computing. Active member of the coding and AI/ML clubs." },
+  { company: "Infosys", role: "Software Engineering Intern", period: "Summer 2024", text: "Built internal tooling for a banking client using Spring Boot and React. Wrote unit tests and helped migrate three services to a new auth layer." },
+  { company: "Zoho", role: "Backend Developer Intern", period: "Winter 2023", text: "Worked on a CRM analytics module — wrote MongoDB aggregation pipelines and exposed them through Java REST endpoints used in production dashboards." },
+  { company: "GDSC RVCE", role: "Web Development Lead", period: "2022 — 2024", text: "Led a chapter of 40+ students. Organized 5 workshops on React, Git and cloud fundamentals; mentored juniors through their first open-source contributions." },
 ] as const;
 
 function TimelineItem({ item, side }: { item: (typeof EXPERIENCE)[number]; side: "left" | "right" }) {
@@ -653,18 +653,18 @@ function TimelineItem({ item, side }: { item: (typeof EXPERIENCE)[number]; side:
 }
 
 const ACHIEVEMENTS = [
-  { kind: "Award", title: "Awwwards Site of the Day ×3", detail: "Recognized for Maison Lior, Sable, and Atelier Nord.", year: "2023 – 2025" },
-  { kind: "Certification", title: "IDEO Creative Leadership", detail: "Completed the 12-week leadership intensive.", year: "2023" },
-  { kind: "Award", title: "Brand New 'Noted' Feature", detail: "Maison Lior identity featured by Under Consideration.", year: "2025" },
-  { kind: "Milestone", title: "Studio of the Year — Nominee", detail: "European Design Awards shortlist.", year: "2024" },
-  { kind: "Talk", title: "Config 2025 — Speaker", detail: "Quiet luxury in product design.", year: "2025" },
-  { kind: "Certification", title: "Type@Cooper West", detail: "Advanced typography program.", year: "2020" },
+  { kind: "Award", title: "Smart India Hackathon — National Winner", detail: "Software track, ed-tech problem statement.", year: "2024" },
+  { kind: "Certification", title: "AWS Certified Cloud Practitioner", detail: "Foundational certification in cloud services.", year: "2024" },
+  { kind: "Award", title: "Dean's List — Top 5%", detail: "Recognised in 4th, 5th and 6th semesters.", year: "2023 – 2024" },
+  { kind: "Milestone", title: "GSoC Contributor", detail: "Contributed to an open-source DevTools organization.", year: "2024" },
+  { kind: "Certification", title: "Stanford ML — Coursera", detail: "Andrew Ng's Machine Learning Specialization.", year: "2023" },
+  { kind: "Award", title: "Best Paper — Student Symposium", detail: "Paper on lightweight CNNs for edge devices.", year: "2024" },
 ];
 
 const TESTIMONIALS = [
-  { name: "Camille Robert", role: "Founder, Maison Lior", quote: "Eliana doesn't just design — she listens until your brand makes sense to itself." },
-  { name: "Daniel Okafor", role: "VP Product, Linear", quote: "One of the sharpest design minds I've worked with. Calm, decisive, and quietly ambitious." },
-  { name: "Priya Shah", role: "Editor, Kinfolk", quote: "Her work has the rare quality of feeling inevitable — like it was always going to look this way." },
+  { name: "Dr. Ramesh Kumar", role: "Project Guide, RVCE", quote: "Aanya approaches problems with rare patience — she reads the spec, asks the right questions, and then ships." },
+  { name: "Neha Iyer", role: "Mentor, Infosys", quote: "One of the strongest interns I've worked with. Picked up our codebase quickly and wrote tests without being asked." },
+  { name: "Arjun Pillai", role: "Teammate, GDSC RVCE", quote: "She made our team better. Calm under pressure during the hackathon finals, and always the first to help juniors debug." },
 ];
 
 function ContactRow({ icon: Icon, label, value }: { icon: typeof Mail; label: string; value: string }) {
@@ -704,14 +704,14 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-3">
         <div>
           <div className="flex items-center gap-2 font-display text-xl">
-            <span className="grid h-9 w-9 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-text)" }}>E</span>
-            Eliana Vaughn
+            <span className="grid h-9 w-9 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-text)" }}>A</span>
+            Aanya Sharma
           </div>
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
-            A small, considered studio crafting brand and product work for the next generation of lifestyle companies.
+            An Information Science &amp; Engineering graduate building thoughtful software across full-stack, data and AI.
           </p>
           <div className="mt-5 flex gap-2">
-            {[Linkedin, Dribbble, Instagram, Github].map((Icon, i) => (
+            {[Linkedin, Github, Twitter, Instagram].map((Icon, i) => (
               <a key={i} href="#" aria-label="Social" className="grid h-10 w-10 place-items-center rounded-full glass hover:-translate-y-0.5 transition">
                 <Icon className="h-4 w-4" />
               </a>
@@ -729,12 +729,12 @@ function Footer() {
         <div>
           <div className="text-xs font-medium uppercase tracking-widest text-gold">Newsletter</div>
           <p className="mt-3 text-sm text-muted-foreground">
-            Quiet field notes on design, craft, and the studio — once a month.
+            Occasional notes on the projects I'm building and what I'm learning — once a month.
           </p>
           <form onSubmit={(e) => e.preventDefault()} className="mt-4 flex items-center gap-2 rounded-full glass p-1.5">
             <input
               type="email"
-              placeholder="you@studio.com"
+              placeholder="you@email.com"
               className="flex-1 bg-transparent px-4 py-2 text-sm outline-none"
             />
             <button className="rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:opacity-90">
@@ -744,8 +744,8 @@ function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-col items-center justify-between gap-3 border-t border-border/60 pt-6 text-xs text-muted-foreground sm:flex-row">
-        <div>© {new Date().getFullYear()} Eliana Vaughn Studio. All rights reserved.</div>
-        <div>Designed & built with intention in San Francisco.</div>
+        <div>© {new Date().getFullYear()} Aanya Sharma. All rights reserved.</div>
+        <div>Designed &amp; built with intention in Bengaluru.</div>
       </div>
     </footer>
   );
