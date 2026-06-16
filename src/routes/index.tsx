@@ -119,7 +119,7 @@ function Portfolio() {
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[1.05] sm:text-6xl lg:text-7xl xl:text-8xl">
               <span className="block text-foreground/90">Hello, I'm</span>
-              <span className="block text-gradient italic whitespace-pre-line">L{"\n\n"}Lekha Shastry H</span>
+              <span className="block text-gradient italic">Lekha Shastry H</span>
             </h1>
             <p className="mt-6 max-w-xl font-display text-2xl italic text-foreground/70 sm:text-3xl">
               Information Science &amp; Engineering Graduate
@@ -704,8 +704,8 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-3">
         <div>
           <div className="flex items-center gap-2 font-display text-xl">
-            <span className="grid h-9 w-9 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-text)" }}>A</span>
-            Aanya Sharma
+            <span className="grid h-9 w-9 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-text)" }}>L</span>
+            Lekha Shastry H
           </div>
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
             An Information Science &amp; Engineering graduate building thoughtful software across full-stack, data and AI.
@@ -744,7 +744,7 @@ function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-col items-center justify-between gap-3 border-t border-border/60 pt-6 text-xs text-muted-foreground sm:flex-row">
-        <div>© {new Date().getFullYear()} Aanya Sharma. All rights reserved.</div>
+        <div>© {new Date().getFullYear()} Leklha . All rights reserved.</div>
         <div>Designed &amp; built with intention in Bengaluru.</div>
       </div>
     </footer>
