@@ -623,8 +623,8 @@ function ProjectCard({ project, reverse }: { project: (typeof PROJECTS)[number];
 
 const EXPERIENCE = [
   { company: "BMS College of Engineering", role: "B.E. — Information Science & Engineering", period: "2021 — 2025", text: "Graduated with a CGPA of 8/10. Coursework in DSA, DBMS, OS, Networks, ML and Cloud Computing. Active member of the coding and AI/ML clubs." },
-  { company: "Aumovio", role: "AIML Intern", period: "SUMMER 2025", text: "Built internal tooling for a banking client using Spring Boot and React. Wrote unit tests and helped migrate three services to a new auth layer." },
-  { company: "SoftServe", role: "Backend Developer Intern", period: "SPRING 2024", text: "Worked on a Python anomalies module — wrote Pyhton aggregation pipelines and exposed them through Java REST endpoints used in production dashboards." },
+  { company: "Aumovio", role: "SDE Intern", period: "SUMMER 2025", text: "Built internal tooling for a banking client using Spring Boot and React. Wrote unit tests and helped migrate three services to a new auth layer." },
+  { company: "SoftServe", role: "AIML Intern", period: "SPRING 2024", text: "Worked on a Python anomalies module — wrote Pyhton aggregation pipelines and exposed them through REST API endpoints used in production dashboards." },
   { company: "GDSC BMSCE", role: "IEEE Member", period: "2022 — 2025", text: "Led a chapter of 40+ students. Organized workshops on IEEE, Git and cloud fundamentals; mentored juniors through their first open-source contributions." },
 ] as const;
 
@@ -662,8 +662,8 @@ const ACHIEVEMENTS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "Dr. Ramesh Kumar", role: "Project Guide, RVCE", quote: "Aanya approaches problems with rare patience — she reads the spec, asks the right questions, and then ships." },
-  { name: "Neha Iyer", role: "Mentor, Infosys", quote: "One of the strongest interns I've worked with. Picked up our codebase quickly and wrote tests without being asked." },
+  { name: "Dr. Anitha H M ", role: "Proctor, BMSCE", quote: "Lekha approaches problems with rare patience — she reads the spec, asks the right questions, and then ships." },
+  { name: "Gautam KeshavaMurthy", role: "Manager, ", quote: "One of the strongest interns I've worked with. Picked up our codebase quickly and wrote tests without being asked." },
   { name: "Arjun Pillai", role: "Teammate, GDSC RVCE", quote: "She made our team better. Calm under pressure during the hackathon finals, and always the first to help juniors debug." },
 ];
 
