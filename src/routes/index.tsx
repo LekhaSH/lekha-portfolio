@@ -622,10 +622,10 @@ function ProjectCard({ project, reverse }: { project: (typeof PROJECTS)[number];
 }
 
 const EXPERIENCE = [
-  { company: "RV College of Engineering", role: "B.E. — Information Science & Engineering", period: "2021 — 2025", text: "Graduated with a CGPA of 9.1/10. Coursework in DSA, DBMS, OS, Networks, ML and Cloud Computing. Active member of the coding and AI/ML clubs." },
-  { company: "Infosys", role: "Software Engineering Intern", period: "Summer 2024", text: "Built internal tooling for a banking client using Spring Boot and React. Wrote unit tests and helped migrate three services to a new auth layer." },
-  { company: "Zoho", role: "Backend Developer Intern", period: "Winter 2023", text: "Worked on a CRM analytics module — wrote MongoDB aggregation pipelines and exposed them through Java REST endpoints used in production dashboards." },
-  { company: "GDSC RVCE", role: "Web Development Lead", period: "2022 — 2024", text: "Led a chapter of 40+ students. Organized 5 workshops on React, Git and cloud fundamentals; mentored juniors through their first open-source contributions." },
+  { company: "BMS College of Engineering", role: "B.E. — Information Science & Engineering", period: "2021 — 2025", text: "Graduated with a CGPA of 8/10. Coursework in DSA, DBMS, OS, Networks, ML and Cloud Computing. Active member of the coding and AI/ML clubs." },
+  { company: "Aumovio", role: "AIML Intern", period: "SUMMER 2025", text: "Built internal tooling for a banking client using Spring Boot and React. Wrote unit tests and helped migrate three services to a new auth layer." },
+  { company: "SoftServe", role: "Backend Developer Intern", period: "SPRING 2024", text: "Worked on a Python anomalies module — wrote Pyhton aggregation pipelines and exposed them through Java REST endpoints used in production dashboards." },
+  { company: "GDSC BMSCE", role: "IEEE Member", period: "2022 — 2025", text: "Led a chapter of 40+ students. Organized workshops on IEEE, Git and cloud fundamentals; mentored juniors through their first open-source contributions." },
 ] as const;
 
 function TimelineItem({ item, side }: { item: (typeof EXPERIENCE)[number]; side: "left" | "right" }) {
