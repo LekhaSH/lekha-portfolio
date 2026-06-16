@@ -155,7 +155,7 @@ function Portfolio() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 hidden rounded-2xl glass-strong px-5 py-4 sm:block">
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">Currently</div>
+                <div className="text-xs uppercase tracking-widest text-muted-foreground">GRADUATED</div>
                 <div className="mt-1 font-display text-lg">B.E. ISE · BMS College of Engineering</div>
               </div>
               <div className="absolute -right-4 top-10 hidden rounded-full glass-strong px-4 py-2 text-xs font-medium sm:block">
