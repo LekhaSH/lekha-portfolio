@@ -377,9 +377,9 @@ function Nav({ dark, setDark }: { dark: boolean; setDark: (v: boolean) => void }
         <div className={`flex items-center justify-between gap-4 rounded-full px-5 py-2.5 transition-all ${scrolled ? "glass-strong" : ""}`}>
           <a href="#home" className="flex items-center gap-2 font-display text-lg">
             <span className="grid h-8 w-8 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-text)" }}>
-              E
+              A
             </span>
-            <span className="hidden sm:inline">Eliana Vaughn</span>
+            <span className="hidden sm:inline">Aanya Sharma</span>
           </a>
           <nav className="hidden items-center gap-7 text-sm text-foreground/70 lg:flex">
             {NAV.map((n) => (
