@@ -137,7 +137,7 @@ function Portfolio() {
 
             <div ref={statsRef} className="mt-14 grid max-w-xl grid-cols-3 gap-6">
               <Stat value={useCounter(18, statsIn)} suffix="+" label="Projects built" />
-              <Stat value={useCounter(9, statsIn)} suffix=" CGPA" label="Final score" />
+              <Stat value={useCounter(8, statsIn)} suffix=" CGPA" label="Final score" />
               <Stat value={useCounter(7, statsIn)} suffix="" label="Hackathons & awards" />
             </div>
           </div>
@@ -156,7 +156,7 @@ function Portfolio() {
               </div>
               <div className="absolute -bottom-6 -left-6 hidden rounded-2xl glass-strong px-5 py-4 sm:block">
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">Currently</div>
-                <div className="mt-1 font-display text-lg">B.E. ISE · RV College of Engineering</div>
+                <div className="mt-1 font-display text-lg">B.E. ISE · BMS College of Engineering</div>
               </div>
               <div className="absolute -right-4 top-10 hidden rounded-full glass-strong px-4 py-2 text-xs font-medium sm:block">
                 <span className="text-gold">★</span> Smart India Hackathon Winner
