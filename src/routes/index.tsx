@@ -136,7 +136,7 @@ function Portfolio() {
             </div>
 
             <div ref={statsRef} className="mt-14 grid max-w-xl grid-cols-3 gap-6">
-              <Stat value={useCounter(18, statsIn)} suffix="+" label="Projects built" />
+              <Stat value={useCounter(10, statsIn)} suffix="+" label="Projects built" />
               <Stat value={useCounter(8, statsIn)} suffix=" CGPA" label="Final score" />
               <Stat value={useCounter(7, statsIn)} suffix="" label="Hackathons & awards" />
             </div>
