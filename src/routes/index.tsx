@@ -318,8 +318,8 @@ function Portfolio() {
           </form>
 
           <div className="reveal space-y-4">
-            <ContactRow icon={Mail} label="Email" value="lekha.shastry.h.ise@gmail.com" />
-            <ContactRow icon={Phone} label="Phone" value="+91 98765 43210" />
+            <ContactRow icon={Mail} label="Email" value="lshastryhss16@gmail.com" />
+            <ContactRow icon={Phone} label="Phone" value="+91 8296284699" />
             <ContactRow icon={MapPin} label="Based in" value="Bengaluru · Open to relocation" />
             <div className="glass rounded-3xl p-6">
               <div className="text-xs font-medium uppercase tracking-widest text-muted-foreground">Follow</div>
@@ -622,8 +622,8 @@ function ProjectCard({ project, reverse }: { project: (typeof PROJECTS)[number];
 }
 
 const EXPERIENCE = [
-  { company: "BMS College of Engineering", role: "B.E. — Information Science & Engineering", period: "2021 — 2025", text: "Graduated with a CGPA of 8/10. Coursework in DSA, DBMS, OS, Networks, ML and Cloud Computing. Active member of the coding and AI/ML clubs." },
-  { company: "Aumovio", role: "SDE Intern", period: "SUMMER 2025", text: "Built internal tooling for a banking client using Spring Boot and React. Wrote unit tests and helped migrate three services to a new auth layer." },
+  { company: "BMS College of Engineering", role: "B.E. — Information Science & Engineering", period: "2021 — 2025", text: "Graduated with a CGPA of 8/10. Coursework in DSA, DBMS, OS, Networks, ML and Cloud Computing. Active member of IEEE and Coding clubs." },
+  { company: "Aumovio", role: "SDE Intern", period: "SUMMER 2025", text: "Built Dashboards for the department using Power BI and Visual Boards. Wrote python scripts and helped migrate three services to a new auth layer." },
   { company: "SoftServe", role: "AIML Intern", period: "SPRING 2024", text: "Worked on a Python anomalies module — wrote Pyhton aggregation pipelines and exposed them through REST API endpoints used in production dashboards." },
   { company: "GDSC BMSCE", role: "IEEE Member", period: "2022 — 2025", text: "Led a chapter of 40+ students. Organized workshops on IEEE, Git and cloud fundamentals; mentored juniors through their first open-source contributions." },
 ] as const;
@@ -744,7 +744,7 @@ function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-col items-center justify-between gap-3 border-t border-border/60 pt-6 text-xs text-muted-foreground sm:flex-row">
-        <div>© {new Date().getFullYear()} Leklha . All rights reserved.</div>
+        <div>© {new Date().getFullYear()} Lekha Shastry H . All rights reserved.</div>
         <div>Designed &amp; built with intention in Bengaluru.</div>
       </div>
     </footer>
