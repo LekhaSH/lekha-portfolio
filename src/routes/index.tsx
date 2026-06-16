@@ -663,8 +663,8 @@ const ACHIEVEMENTS = [
 
 const TESTIMONIALS = [
   { name: "Dr. Anitha H M ", role: "Proctor, BMSCE", quote: "Lekha approaches problems with rare patience — she reads the spec, asks the right questions, and then ships." },
-  { name: "Gautam KeshavaMurthy", role: "Manager, ", quote: "One of the strongest interns I've worked with. Picked up our codebase quickly and wrote tests without being asked." },
-  { name: "Arjun Pillai", role: "Teammate, GDSC RVCE", quote: "She made our team better. Calm under pressure during the hackathon finals, and always the first to help juniors debug." },
+  { name: "Gautam KeshavaMurthy", role: "Manager, AUMOVIO", quote: "One of the strongest interns I've worked with. Picked up our codebase quickly and wrote tests without being asked." },
+  { name: "Sony Mahato", role: "Teammate, BMSCE", quote: "She made our team better. Calm under pressure during the hackathon finals, and always the first to help juniors debug." },
 ];
 
 function ContactRow({ icon: Icon, label, value }: { icon: typeof Mail; label: string; value: string }) {
