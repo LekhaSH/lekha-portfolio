@@ -15,9 +15,9 @@ import project3 from "@/assets/project3.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aanya Sharma — Information Science & Engineering Graduate" },
-      { name: "description", content: "Portfolio of Aanya Sharma, a recent Information Science and Engineering graduate building thoughtful software across full-stack, data and AI." },
-      { property: "og:title", content: "Aanya Sharma — Information Science & Engineering Graduate" },
+      { title: "Lekha Shastry H — Information Science & Engineering Graduate" },
+      { name: "description", content: "Portfolio of Lekha Shastry H, a recent Information Science and Engineering graduate building thoughtful software across full-stack, data and AI." },
+      { property: "og:title", content: "Lekha Shastry H — Information Science & Engineering Graduate" },
       { property: "og:description", content: "Recent ISE graduate building thoughtful full-stack, data and AI projects." },
     ],
   }),
@@ -119,7 +119,7 @@ function Portfolio() {
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[1.05] sm:text-6xl lg:text-7xl xl:text-8xl">
               <span className="block text-foreground/90">Hello, I'm</span>
-              <span className="block text-gradient italic">Aanya Sharma</span>
+              <span className="block text-gradient italic whitespace-pre-line">L{"\n\n"}Lekha Shastry H</span>
             </h1>
             <p className="mt-6 max-w-xl font-display text-2xl italic text-foreground/70 sm:text-3xl">
               Information Science &amp; Engineering Graduate
@@ -148,7 +148,7 @@ function Portfolio() {
               <div className="overflow-hidden rounded-[2rem] glass-strong p-2">
                 <img
                   src={portrait}
-                  alt="Portrait of Aanya Sharma"
+                  alt="Portrait of Lekha Shastry H"
                   width={1024}
                   height={1280}
                   className="h-[34rem] w-full rounded-[1.6rem] object-cover sm:h-[38rem]"
@@ -318,7 +318,7 @@ function Portfolio() {
           </form>
 
           <div className="reveal space-y-4">
-            <ContactRow icon={Mail} label="Email" value="aanya.sharma.ise@gmail.com" />
+            <ContactRow icon={Mail} label="Email" value="lekha.shastry.h.ise@gmail.com" />
             <ContactRow icon={Phone} label="Phone" value="+91 98765 43210" />
             <ContactRow icon={MapPin} label="Based in" value="Bengaluru · Open to relocation" />
             <div className="glass rounded-3xl p-6">
@@ -377,9 +377,9 @@ function Nav({ dark, setDark }: { dark: boolean; setDark: (v: boolean) => void }
         <div className={`flex items-center justify-between gap-4 rounded-full px-5 py-2.5 transition-all ${scrolled ? "glass-strong" : ""}`}>
           <a href="#home" className="flex items-center gap-2 font-display text-lg">
             <span className="grid h-8 w-8 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-text)" }}>
-              A
+              L
             </span>
-            <span className="hidden sm:inline">Aanya Sharma</span>
+            <span className="hidden sm:inline">Lekha Shastry H</span>
           </a>
           <nav className="hidden items-center gap-7 text-sm text-foreground/70 lg:flex">
             {NAV.map((n) => (
